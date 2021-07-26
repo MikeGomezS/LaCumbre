@@ -31,8 +31,7 @@ body{
 }
 
 
-/*************************************************************/
-/****************** Utility classes and stylings ************/
+/****** Utility classes and stylings ******/
 h1, h2, h3, h4, h5, h6, p{
     margin: 0.6rem 0;
 }
@@ -142,10 +141,8 @@ a{
     line-height: 1.8;
 }
 
-/*************************************************************/
-/*************************************************************/
 
-/************************** navbar ***************************/
+/****** navbar ******/
 .navbar{
     color: var(--darkGrey);
     background: #fff;
@@ -181,7 +178,6 @@ a{
     top: auto;
     z-index: 999;
     background: #fff;
-    /****************/
     display: none;
 }
 .panel.is-active{
@@ -207,7 +203,7 @@ a{
 }
 
 
-/***************************** header *************************/
+/****** header ******/
 .header{
     margin: 7rem 0 3rem 0;
 }
@@ -233,13 +229,13 @@ a{
     color: var(--blue);
 }
 
-/************************* archive ***************************/
+/****** archive ******/
 .archive-wrapper{
     margin: 3.5rem 0;
     padding: 1rem;
 }
 
-/*************************** category ************************/
+/****** category ******/
 .category-wrapper{
     margin: 3.5rem 0;
     padding: 1rem;
@@ -334,7 +330,7 @@ a{
     color: var(--blue);
 }
 
-/************************* footer **************************/
+/****** footer ******/
 .footer{
     background: var(--black);
     margin-top: 3.5rem;
@@ -383,7 +379,7 @@ a{
     margin: 0 auto;
 }
 
-/************************* Archivo1 **************************/
+/****** Archivo1 ******/
 .head-archivo{
     background: url("../multi/archivo1.jpg") center/cover no-repeat;
 }
@@ -400,8 +396,7 @@ a{
 
 
 
-/************************* Media Queries ***********************/
-/**************************************************************/
+/****** Media Queries ******/
 
 @media(min-width: 576px){
     /* header section */
